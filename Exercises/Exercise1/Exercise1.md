@@ -12,7 +12,7 @@ First of all, create a html file with the following content:
   <title>Docker example</title>
 </head>
 <body>
-  Hello!
+  Hello docker!
 </body>
 </html>
 ```
@@ -25,6 +25,6 @@ COPY index.html /usr/local/apache2/htdocs/.
 
 Finally, build and run it:
 ```sh
-docker build -t image_name .
-docker run -p 80:80 image_name
+docker build -t manavarro/excercise:1.0 .
+docker run -p 80:80 manavarro/excercise:1.0
 ```

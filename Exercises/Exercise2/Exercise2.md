@@ -19,14 +19,14 @@ Learn with an example. We create a node app, with a TODO list management.
 
 4. Go to the console and build it
 ```sh
- docker build -t getting-started .
+ docker build -t manavarro/excersise:2.0 .
 ```
 
 5. Finally, Run it
 ```sh
-docker run -dp 3000:3000 getting-started
+docker run -dp 2000:3000 manavarro/excersise:2.0
 ```
-Remember the -d and -p flags. We’re running the new container in “detached” mode (in the background) and creating a mapping between the host’s port 3000 to the container’s port 3000. Without the port mapping, we wouldn’t be able to access the application.
+Remember the -d and -p flags. We’re running the new container in “detached” mode (in the background) and creating a mapping between the host’s port 2000 to the container’s port 3000. Without the port mapping, we wouldn’t be able to access the application.
 
 6. Update the souce code, and then build and run the app into Docker, by replacing the following text:
 ```sh
