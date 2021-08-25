@@ -1,5 +1,23 @@
 # Docker
 
+## Install docker desktop
+
+Windows:
+
+https://www.docker.com/products/docker-desktop 
+
+Mac :
+
+https://hub.docker.com/editions/community/docker-ce-desktop-mac?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=header
+
+
+CHOCOLATEY:
+
+1 . Install Chocolatey -  https://chocolatey.org/install
+2 . Install Docker - choco install docker-desktop
+
+
+
 ## Manage Containers
 
 | Command                      | Description                               |
